@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="stilo.css">
+    <style>
+        body {
+            background: url('https://infosil.usil.edu.pe/images/imaghor.jpg') 0 -490px repeat-x fixed;
+        }
+
+        .container>header:first-child {
+            height: 100px;
+            background-image: url(cabecera.png);
+        }
+
+        .container>header:first-child>span {
+            color: antiquewhite;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .barra {
+            background: #3b3b3b;
+            color: white;
+        }
+
+        .container>footer {
+            background-color: #13336f;
+            color: white;
+        }
+
+        .menu {
+
+            background-color: #f0f0f0;
+        }
+
+        .menu .active {
+            background-color: #225ea2;
+        }
+
+        .cuadro {
+            background-color: white;
+            margin: 0;
+        }
+
+        .principal h1 {
+            font-size: 1em;
+        }
+
+        th {
+            background-color: #13336f;
+            color: white;
+            border-color: 1px solid black !important;
+            font-weight: bold;
+        }
+    </style>
+    <title>Infosil</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <span class="float-right mt-3 mr-3">Shamil Rivera Acacio</span>
+        </header>
+        <div class="barra text-right  p-2">
+            Miercoles: 28 de Agosto
+        </div>
+
+        <div class="row cuadro">
+            <div class="col-sm-3">
+                <div class="menu p-3 m-3 border rounded">
+                    <ul class="list-group">
+                        <li class="list-group-item active p-2"> >>Desarrollo de Clases</li>
+                        <li class="list-group-item p-2">-Registrar Asistencia</li>
+                        <li class="list-group-item p-2">-Registro de Notas</li>
+                        <li class="list-group-item p-2">-Mensaje</li>
+                    </ul>
+                    <ul class="list-group">
+                        <li class="list-group-item active p-2"> >>Desarrollo de Clases</li>
+                        <li class="list-group-item p-2">-Registrar Asistencia</li>
+                        <li class="list-group-item p-2">-Registro de Notas</li>
+                        <li class="list-group-item p-2">-Mensaje</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-9 principal p-4">
+                <h1 class="text-center">Asistencia de Alumnos</h1>
+                <table class="table table-bordered">
+
+                    <tr class="bg-primary">
+                        <th rowspan="2">N°</th>
+                        <th colspan="2">Sesiones</th>
+                        <th colspan="2" rowspan="2">Alumno</th>
+                        <th rowspan="2">Carrera</th>
+                        <th rowspan="2">Estado <br> Curso</th>
+                        <th rowspan="2">Estado <br> Alumno</th>
+                        <th rowspan="2">Faltas</th>
+                        <th rowspan="2">%</th>
+                    </tr>
+
+                    <tr class="bg-primary">
+
+                        <th>13:00<br>13:50</th>
+                        <th>13:50<br>14:40</th>
+
+                    </tr>
+
+
+                    <tr>
+                        <td>1</td>
+                        <td>Mark</td>
+                        <td><input type="checkbox" checked></td>
+                        <td><input type="checkbox" checked></td>
+                        <td><img src="daw.jpg" alt=""></td>
+                        <td>Ing Informatica y Sistemas</td>
+                        <td>Activo</td>
+                        <td>Activo</td>
+                        <td>0</td>
+                        <td>0.0</td>
+                    </tr>
+                </table>
+
+                <div class="d-flex flex-row-reverse bd-highlight">
+                    <button type="button" class="btn btn-outline-secondary ">Secondary</button>
+                </div>
+            </div>
+        </div>
+        <footer class="p-3 text-center text-uppercase">
+            UNIVERSIDAD SAN IGNACIO DE LOYOLA / Av. La Fontana 550, La Molina Lima - Perú Central Telefónica (511) 317 -
+            1000
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
